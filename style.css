@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-family: century;
+    background-image:url(https://images.pexels.com/photos/1170576/pexels-photo-1170576.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+}
+div{
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 500px;
+}
+.text{
+    text-align: left;
+    margin-left: 100px;
+}
+#h,#w{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+    color:#0077b5;
+    font-family: century;
+    font-size: 20px;
+    text-align: left;
+}
+#h:focus,#w:focus{
+    border-bottom: 2px solid black;
+    width: 250px;
+    transition: 0.3s;
+    
+}
+#btn{
+    background-color:#0077b5;
+    color: white;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 30px;
+    font-family: century;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px 0;
+    
+}
+#btn:hover{
+    box-shadow: 0 0 10px #0077b5;
+    width: 170px;
+    height: 35px;
+}
